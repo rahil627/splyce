@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\preferences.o
+./debug\workbench.o
+./debug\FtpDirModel_p.o
+./debug\FtpDirModel.o
+./debug\moc_htmlHighlighter.o
+./debug\moc_preferences.o
+./debug\moc_workbench.o
+./debug\moc_FtpDirModel_p.o
+./debug\moc_FtpDirModel.o
+./debug\qrc_resources.o
+);

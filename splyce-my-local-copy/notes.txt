@@ -1,0 +1,122 @@
+ftp://rahil627:Hogwarts33@rahilpatel.com
+ftp://username:password@hostname
+
+temp
+read signals and slots article
+signal naming convention
+
+Qt
+:/resourcePath 
+
+things to do
+change mConnect to show/hide filesystem widget, or add "view" menu item, or change filesystem to a dock
+filesystem abstract class - has open/close shared functions, and local/ftp specifics, "loose coupling"
+remove old icon code
+disable _updir widget in localBrowser?
+put save function above commandFinished?
+move disconnect button in a cooler position
+set up or find a naming convention for widgets, fucntions, and private members
+finalize fileystem, and current code in Splyce
+add naming convention to all files? or at least filesystem. comment less
+
+add a change font size shortcut control + scroll - http://forum.openscenegraph.org/viewtopic.php?t=1665
+remember to delete pointer objects - file/ftp, and clear objects - isDirectory/currentPath
+?set size of _stack to expanding, or change centralwidget to grid
+the mainwindow starting position is off to the bottom left a bit
+the mainwindows starting size fits my computer, but what about others?
+check workbench::init(). changes webView instead of _text?
+*add some feature requests on sourceforge
+*check neil's features requets on sourceforge
+*add a login interface
+remove sNew(QString)/fix args code
+
+bugs
+'uploaded filename' ftpStatusLabel has a *
+*****save local file - clears the file
+
+changes since last commit
+?
+
+general programming
+nested functions not allowed in C++ class methods?
+
+header file includes
+A header file should be included only when a forward declaration would not do the job.
+The header file should be so designed that the order of header file inclusion is not important.
+The header file inclusion mechanism should be tolerant  to duplicate header file inclusions.
+
+forward declaration - use it when possible, over include. it will speed up compilation.
+
+other notes
+workbench =/= _workbench
+accessing other widget slots - signals vs parent widget?
+when in filesystem, you can't access workbench widget, and you can't put connect statements with workbench as the sender
+can't create a local function inside a method?
+
+additions
+other ftp like protocols - check Network class
+more keyboard shortcuts (complex ones like coda)
+sply preview/edit? - splyce
+find and replace function - using regular expressions
+open files in tabs or drop down menu list like Qt
+more syntax highlighting
+HTML color chooser
+HTML/CSS autofill
+open files upon start
+
+code
+//connect(_localBrowser,  SIGNAL(doubleClicked(QModelIndex)), parentWidget(), SLOT(sFileDoubleClicked(QModelIndex)));
+//connect(_localBrowser,  SIGNAL(doubleClicked(QModelIndex)), parentWidget(), SLOT(sFileDoubleClicked()));
+//connect(_localBrowser,  SIGNAL(doubleClicked(QModelIndex)), parentWidget(), SLOT(sNew()));
+
+//connect(this/*filesystem*/, SIGNAL(sFileDoubleClickedSignal(QFileInfo)), workbench/*this*/, SLOT(sFileDoubleClicked(QFileInfo)));
+
+//    qDebug() << this->parent()->parent()->parent();
+//    qDebug() << this->parentWidget()->parentWidget()->parentWidget();
+//    workbench *temp = (workbench *)parentWidget();
+//    temp->sNew();
+
+code that came with the widget template
+filesystem.h
+namespace Ui { //appeared above the class filesystem
+    class filesystem;
+}
+m_ui->setupUi(this); //appeared inside the constructor
+public:
+    ~filesystem(); //came with the widget template
+protected:
+    void changeEvent(QEvent *e); //came with the widget template
+private:
+    Ui::filesystem *m_ui; //came with the widget template
+
+filesystem.cpp
+filesystem::filesystem(QWidget *parent) : QWidget(parent), m_ui(new Ui::filesystem)
+filesystem::~filesystem()
+{
+    delete m_ui;
+}
+void filesystem::changeEvent(QEvent *e)
+{
+    QWidget::changeEvent(e);
+    switch (e->type()) {
+    case QEvent::LanguageChange:
+        m_ui->retranslateUi(this);
+        break;
+    default:
+        break;
+    }
+}
+
+#include <QtDebug>
+qDebug() <<
+
+
+
+
+"*test.txt" 
+ "/test.txt" 
+ "" 
+"*test.txt" 
+ "C:/Documents and Settings/Rahil/Desktop/test.txt" 
+ "C:/Documents and Settings/Rahil/Desktop" 
+

@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="icons" >
+    <file>icons/hdd_unmount.png</file>
+    <file>icons/file.png</file>
+    <file>icons/dir.png</file>
+    <file>icons/connect_to_network.png</file>
+    <file>icons/menu_arrow.png</file>
+    <file>icons/bar.png</file>
+    <file>icons/button.png</file>
+    <file>icons/view_text.png</file>
+    <file>icons/viewmag.png</file>
+    <file>icons/button_cancel.png</file>
+    <file>icons/next.png</file>
+    <file>icons/editcopy.png</file>
+    <file>icons/previous.png</file>
+    <file>icons/editcut.png</file>
+    <file>icons/editpaste.png</file>
+    <file>icons/filenew.png</file>
+    <file>icons/fileopen.png</file>
+    <file>icons/filesave.png</file>
+    <file>icons/filesaveas.png</file>
+    <file>icons/configure.png</file>
+    <file>icons/redo.png</file>
+    <file>icons/undo.png</file>
+  </qresource>
+</RCC>

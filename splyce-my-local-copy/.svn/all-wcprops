@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svnroot/splyce/!svn/ver/49
+END
+preferences.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/splyce/!svn/ver/52/preferences.cpp
+END
+icon.icns
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/splyce/!svn/ver/17/icon.icns
+END
+preferences.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/splyce/!svn/ver/51/preferences.h
+END
+Splyce.pro
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/splyce/!svn/ver/50/Splyce.pro
+END
+resources.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/splyce/!svn/ver/42/resources.qrc
+END
+workbench.ui
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/splyce/!svn/ver/51/workbench.ui
+END
+filesystem.ui
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/splyce/!svn/ver/52/filesystem.ui
+END
+page.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/splyce/!svn/ver/51/page.h
+END
+workbench.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/splyce/!svn/ver/53/workbench.cpp
+END
+htmlHighlighter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/splyce/!svn/ver/47/htmlHighlighter.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/splyce/!svn/ver/47/main.cpp
+END
+filesystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/splyce/!svn/ver/53/filesystem.cpp
+END
+workbench.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/splyce/!svn/ver/53/workbench.h
+END
+htmlHighlighter.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/splyce/!svn/ver/51/htmlHighlighter.h
+END
+filesystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/splyce/!svn/ver/53/filesystem.h
+END
+preferences.ui
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/splyce/!svn/ver/36/preferences.ui
+END

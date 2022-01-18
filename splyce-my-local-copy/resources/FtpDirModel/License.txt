@@ -1,0 +1,15 @@
+FtpDirModel class
+
+Copyright VCreate Logic (P) Ltd, Bangalore, India
+
+EMail: info@vcreatelogic.com
+URL  : http://www.vcreatelogic.com/
+SVN  : https://svn2.hosted-projects.com/vcreatelogic/FtpDirModel
+=================================================================
+
+The contents of this package is provided under GPL version 2 and 3.
+The complete texts of GPL v2 and v3 are available in the same folder
+where you found this file
+
+For clarifications write to info@vcreatelogic.com.
+
